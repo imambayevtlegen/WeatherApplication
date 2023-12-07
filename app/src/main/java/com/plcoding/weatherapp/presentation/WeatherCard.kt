@@ -53,7 +53,7 @@ fun WeatherCard(
                     modifier = Modifier.align(Alignment.End),
                     color = Color.White
                 )
-                Spacer(modifier = Modifier.height(18.dp))
+                Spacer(modifier = Modifier.height(17.dp))
                 Image(
                     painter = painterResource(id = data.weatherType.iconRes),
                     contentDescription = null,
