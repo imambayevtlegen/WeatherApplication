@@ -34,7 +34,7 @@ fun HourlyWeatherDisplay(
     ) {
         Text(
             text = formattedTime,
-            color = Color.White
+            color = Color.LightGray
         )
         Image(
             painter = painterResource(id = weatherData.weatherType.iconRes),
